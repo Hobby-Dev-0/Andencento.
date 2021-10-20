@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "https://github.com/Andencento/Andencento"
+          find: "github.com/Andencento/Andencento"
 
-          replace: "https://github.com/TheAndencento/Andencento"
+          replace: "github.com/TheAndencento/Andencento"
 
       - name: Create Pull Request
 
