@@ -6,7 +6,7 @@ from pathlib import Path
 from telethon.tl.functions.channels import JoinChannelRequest
 
 from config import Config
-
+from Config import Config
 from .. import *
 from ..utils import *
 from ..utils.modules import extra
