@@ -1,5 +1,5 @@
 import os
-
+from Config import Config
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
@@ -7,3 +7,4 @@ if ENV:
 else:
     if os.path.exists("config.py"):
         pass
+Config = Config
