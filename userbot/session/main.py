@@ -11,7 +11,7 @@ from .. import *
 from ..utils import *
 from ..utils.modules import extra
 
-hl = Config.HANDLER
+hl = os.environ.get("HANDLER")
 PIC = Config.ALIVE_PIC or "https://telegra.ph/file/3d208ecf6d0ea9389d8f8.jpg"
 ALIVE = Config.YOUR_NAME or "ANDENCENTO USER"
 Andencento_mention = f"[{ALIVE}]"
