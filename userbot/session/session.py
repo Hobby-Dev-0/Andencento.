@@ -4,7 +4,7 @@ from config import Config as Var
 from .. import *
 
 ALIVE_NAME = os.environ.get("YOUR_NAME", None)
-YOUR_NAME = Config.YOUR_NAME
+YOUR_NAME = os.environ.get("YOUR_NAME", None)
 from Config import Config
 
 versionop = "0.0.2"
