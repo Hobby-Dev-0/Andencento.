@@ -1,6 +1,6 @@
 import os
 
-from userbot import YOUR_NAME as ALIVE_NAME
+from userbot import ALIVE_NAME
 
 from .. import ver
 
