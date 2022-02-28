@@ -3,7 +3,7 @@ from config import Config as Var
 
 from .. import *
 
-ALIVE_NAME = Config.YOUR_NAME
+ALIVE_NAME = os.environ.get("YOUR_NAME", None)
 YOUR_NAME = Config.YOUR_NAME
 from Config import Config
 
